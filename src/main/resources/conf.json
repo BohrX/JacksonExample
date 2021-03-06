@@ -1,0 +1,47 @@
+[
+  {
+    "id" : "china.671",
+    "name" : "peter",
+    "parameter": {
+      "p1" : "abc",
+      "serverParamList" : [
+        {
+          "id" : -672,
+          "cpu" : 8,
+          "monitor" : true,
+          "logDir" : "/opt/var/log"
+        },
+        {
+          "id" : -673,
+          "cpu" : 16,
+          "monitor" : true,
+          "logDir" : "/opt/var/log"
+        }
+      ],
+      "p2" : 123
+    }
+  },
+  {
+    "id" : "eu.1453",
+    "name" : "tom",
+    "parameter": {
+      "p1": "def",
+      "serverParamList": "[{\"id\":-886,\"cpu\":4,\"monitor\":true,\"logDir\":\"/opt/var/log\"},{\"id\":-1991,\"cpu\":32,\"monitor\":false,\"logDir\":\"/opt/var/log/ussr\"}]",
+      "p2" : 123
+    }
+  },
+  {
+    "id" : "na.1776",
+    "name" : "sam",
+    "parameter": {
+      "p1": "ghi",
+      "serverParamList" : {
+          "id" : -1945,
+          "cpu" : 128,
+          "monitor" : true,
+          "logDir" : "/opt/var/log/us"
+        },
+      "p2" : 123
+    }
+  }
+]
